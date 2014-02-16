@@ -1,5 +1,5 @@
 def find_out_christmas_weekday(date)
-  if date.class == Time
+  if date.class == Date
     date.to_date.strftime("%A")
   else
     year = nil
